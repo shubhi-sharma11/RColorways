@@ -1,2 +1,9 @@
 Package: RColorways
 Version: 0.1
+Date: 08-04-2022
+Title: RColorways
+Description: This package is used to create aesthetic colour schemes for scientific figures
+Author: Shubhi Sharma <shubhi.sharma@yale.edu>
+Maintainer: Shubhi Sharma <shubhi.sharma@yale.edu>
+RoxygenNote: 7.2.0
+Encoding: UTF-8

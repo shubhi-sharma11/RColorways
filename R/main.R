@@ -105,10 +105,8 @@ cbCheck <- function(pal) {
 #' @param num_cols number of colors wanted in the output 
 #' @param full TRUE/FALSE, whether the full gradient should be plotted or not
 #' @return a full gradient plot, your palette plot, vector of HEX codes 
-#' 
-#' @example mycols <-  createCols(c("violet", "darkred"), 6)[["hex"]]
 #' @export
-#' @improtFrom grDevices col2rgb
+#' @importFrom grDevices col2rgb
 #' @importFrom grDevices colorRampPalette
 #' @importFrom grDevices rgb
 #' @import ggplot2
@@ -318,11 +316,10 @@ shadePicker <- function(hex1){
 #' Palette Visualization 
 #' 
 #' @param palette Name of a palette to view. Default is NULL which will display all the built-in palettes
-#' 
 #'  @return Plots  
-#'  @export 
 #'  @import ggplot2
-
+#'  @export 
+#'  
 displayPals <- function(palette = NULL) {
   
   
