@@ -1,0 +1,9 @@
+Package: Colorplot
+Version: 0.1
+Date: 08-04-2022
+Title: Color Plot
+Description: This package allows users to create and plot color schemes 
+Author: Shubhi Sharma <shubhi.sharma@yale.edu>
+Maintainer: Shubhi Sharma <shubhi.sharma@yale.edu>
+RoxygenNote: 7.2.0
+License: GPL-3
